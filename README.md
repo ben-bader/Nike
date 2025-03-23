@@ -26,7 +26,7 @@
 
 1️⃣ **Clone the repository:**  
 ```sh
-git clone https://github.com/bader-ben/Nike.git
+git clone https://github.com/ben-bader/Nike.git
 ```  
 
 2️⃣ **Navigate to the project directory:**  
