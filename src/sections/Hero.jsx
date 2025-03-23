@@ -13,23 +13,23 @@ const Hero = () => {
     flex-col justify-center
      min-h-screen gap-10 max-container-class padding-l padding-x'>
      <div className='relative xl:w-2/5 flex flex-col
-      justify-center items-start w-full z-50
+      justify-center items-start w-full 
       pt-28'>
       <p className='text-xl font-montserrat 
       text-coral-red'>Our summer collections</p>
       <h1 className='mt-10 font-palanquin text-8xl inline-block
-      max-sm:text-[72px] max-sm:leading-[82px] font-bold  w-full z-50'>
-       <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10 '>The New Arrival</span>
+      max-sm:text-[72px] max-sm:leading-[82px] font-bold  w-full'>
+       <span className='xl:bg-white xl:whitespace-nowrap relative  pr-10 '>The New Arrival</span><br/>
        <span className='text-coral-red'>Nike</span> Shoes
        </h1>
        <p className='font-montserrat text-slate-gray 
        text-lg leading-8 mt-6 mb-14
-       sm:max-w-sm z-50'>
+       sm:max-w-sm '>
         Discover stylish Nike Arrivals, quality comfort, and innovation for your active life.
         </p>
-       <Button title="Shop Now" icon={arrowRight} className="flex gap-3 bg-coral-red px-5 py-3 rounded-full text-lg items-center justify-center text-white border-coral-red z-50"/>
+       <Button title="Shop Now" icon={arrowRight} className="flex gap-3 bg-coral-red px-5 py-3 rounded-full text-lg items-center justify-center text-white border-coral-red"/>
     <div className='flex justify-start items-center 
-    flex-wrap w-full mt-20 gap-16 z-50'>
+    flex-wrap w-full mt-20 gap-16 '>
       {statistics.map((stat)=>( 
         <div key={stat.label}>
           <p className='text-xl font-palanquin font-bold'>{stat.value}</p>
