@@ -12,8 +12,8 @@
   scroll-behavior: smooth;
 }
 .slide {
-	-webkit-animation:slide .6s ease;
-	        animation: slide .6s ease;
+	-webkit-animation:slide .6s ease both;
+	        animation: slide .6s ease both;
           background: linear-gradient(45deg , #ffd042dd, #ffac2f);
 }
 @layer components {
